@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-3cc7^*mza7u*51cztbaur7)s10!6jkk)j&q2y^tw#%-yq+p%&j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://chat-backend-ec08.onrender.com", "localhost"]
+ALLOWED_HOSTS = ["chat-backend-ec08.onrender.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -135,5 +135,16 @@ CORS_ALLOWED_ORIGINS = [
     "https://chat-summariser-frontend.onrender.com", # Port Number of frontend
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://chat-summariser-frontend.onrender.com",
+]
+
 CORS_ALLOW_CREDENTIALS = True
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    )
+}
+
 
