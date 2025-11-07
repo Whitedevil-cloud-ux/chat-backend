@@ -132,7 +132,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://chat-summariser-frontend.onrender.com",, # Port Number of frontend
+    "https://chat-summariser-frontend.onrender.com", # Port Number of frontend
 ]
 
 CORS_ALLOWED_ORIGINS = True
