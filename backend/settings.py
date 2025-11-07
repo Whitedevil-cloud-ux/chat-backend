@@ -135,4 +135,5 @@ CORS_ALLOWED_ORIGINS = [
     "https://chat-summariser-frontend.onrender.com", # Port Number of frontend
 ]
 
-CORS_ALLOWED_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
+
