@@ -20,7 +20,7 @@ A Django-powered backend for a smart chat summarization app that:
 
 1. Clone the repo
     ```bash
-    git clone https://github.com/yourusername/chat-backend.git
+    git clone https://github.com/Whitedevil-cloud-ux/chat-backend.git
     cd chat-backend
     ```
 
