@@ -24,7 +24,7 @@ if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY is not set in the environment variables")
 
 client = Groq(api_key=GROQ_API_KEY)
-EMBED_MODEL = "text-embedding-ada-002"  
+EMBED_MODEL = "text-embedding-3-small"  
 
 def embed_text(text: str) -> list:
     try:
